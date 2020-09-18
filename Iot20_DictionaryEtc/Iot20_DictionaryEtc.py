@@ -13,6 +13,8 @@
 # å andra sidan: i datastrukturer och algoritmer får ni se att arrayer (listor) trots allt 
 # i praktiken är det enda som behövs ... data locality
 
+print("*** SuperduperTelefonregistret ***")
+
 telregister = {}
 for n in range(0,5):    #stefan 08-11122334
     inp = input("Ebter name and phonenumber - spaceseparated")
