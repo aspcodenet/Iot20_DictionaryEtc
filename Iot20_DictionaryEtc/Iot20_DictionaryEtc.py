@@ -15,7 +15,7 @@
 
 telregister = {}
 for n in range(0,5):    #stefan 08-11122334
-    inp = input("Mata in namn och telefonnummer - spaceseparated")
+    inp = input("Ebter name and phonenumber - spaceseparated")
     parts = inp.split(' ')
     namn = parts[0]
     tel = parts[1]
@@ -28,6 +28,7 @@ while(True):
     else:
         print("Finns ej i registret")
 
+print("heheh")
 
 #def HittaLangstaOrdet(arrayOfStrings):
 #    longestSoFar = arrayOfStrings[0]
@@ -41,7 +42,7 @@ while(True):
 #print(longestName)
 
 
-#namn -> antal matchjer som som spelat
+
 
 #för varje tröjnummer ska vi hålla reda på spelarnamnet
 #          kontonummer                      saldot     
